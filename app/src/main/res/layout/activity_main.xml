@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9ff4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="&#xf0c9;"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women Safety"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/danger"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/danger" />
+
+
+    <ImageView
+        android:id="@+id/safe"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/safe"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update Profile" />
+
+        <Button
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Complaint Box" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blogs" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <Button
+            android:id="@+id/emgNum"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="emgNum"
+            android:text="Emergency Numbers" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rate Location"
+            />
+    </LinearLayout>
+
+</LinearLayout>
